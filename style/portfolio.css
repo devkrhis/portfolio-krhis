@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Lobster&family=Shadows+Into+Light&display=swap');
+
+:root {
+    --background-color: #2C3333;
+    --pagetext-color: #0E8388;
+    --hover-color: #2E4F4F;
+    --footer-color: #CBE4DE;
+    --hover-color-text: rgb(255, 255, 255);
+
+}
+
+* {
+    margin: 0;
+	padding: 0;
+}
+
+.page__body{
+    background-color: var(--background-color);
+}
+
+.page__body__header{
+    background-color: var(--footer-color);
+    display: flex;
+    justify-content: flex-end;
+    padding: 3.2% 3%;
+    font-family: 'Lobster', cursive;
+}
+
+.page__body__header__img{
+    width: 3.2%;
+    margin-top: -0.7%;
+    margin-right: 90%;
+    position: absolute;
+}
+
+.page__body__header__navegacao__link {
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.page__body__header__navegacao__link:hover {
+    background-color: var(--hover-color);
+    color: var(--hover-color-text);
+    border: 2px solid var(--hover-color-text);
+}
+
+.frame__control h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    color: white;
+}
+
+.frame__control__section{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    flex-wrap: wrap;
+    padding: 4% 5%;
+    gap: 30px;
+
+}
+
+.controlDeQuadrados__box{
+    border: 2px solid white;
+    padding: 10% 5%;
+}
+
+.controlDeQuadrados__box:hover{
+    border: 2px solid rgb(255, 0, 0);
+    background-color: var(--footer-color);
+    color: red;
+}
+
+.rodape{
+    background-color: var(--footer-color);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5%;
+}
+
+.rodape__img{
+    width: 40px;
+}
