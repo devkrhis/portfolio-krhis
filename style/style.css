@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Lobster&family=Shadows+Into+Light&display=swap');
+
+:root {
+    --background-color: #2C3333;
+    --pagetext-color: #0E8388;
+    --hover-color: #2E4F4F;
+    --footer-color: #CBE4DE;
+    --hover-color-text: rgb(255, 255, 255);
+
+}
+
+* {
+    margin: 0;
+	padding: 0;
+}
+
+.page__body{
+    background-color: var(--background-color);
+}
+
+.page__body__header{
+    background-color: var(--footer-color);
+    display: flex;
+    justify-content: flex-end;
+    padding: 3.2% 3%;
+    font-family: 'Lobster', cursive;
+}
+
+.page__body__header__img{
+    width: 3.2%;
+    margin-top: -0.7%;
+    margin-right: 90%;
+    position: absolute;
+}
+
+.page__body__header__navegacao__link {
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.page__body__header__navegacao__link:hover {
+    background-color: var(--hover-color);
+    color: var(--hover-color-text);
+    border: 2px solid var(--hover-color-text);
+}
+
+.page__body__main{
+    color: var(--pagetext-color);
+    display: flex;
+    padding: 5% 20%;
+}
+
+.page__body__main h1 {
+    color: var(--hover-color-text);
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 2%;
+}
+
+.page__body__main__section{
+    padding: 10px;
+
+}
+
+.page__body__main__section h2{
+    padding: 3% 2%;
+    font-family: 'Shadows Into Light', cursive;
+    
+}
+
+.page__body__main__section__paragraf {
+    padding: 2% 2%; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+.agradecimento{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.3rem;
+}
+
+.page__body__main__section_strong {
+    color: var(--footer-color);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.rodape{
+    background-color: var(--footer-color);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5%;
+}
+
+.rodape__img{
+    width: 40px;
+}
+
+@media(max-width: 950px){
+    .page__body__main__section h2{
+        padding: 5% 10%;
+    }
+
+    .page__body__main__section__paragraf{
+        padding: 5% 10%;
+    }
+
+}
